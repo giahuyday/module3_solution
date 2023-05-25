@@ -1,0 +1,64 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    align-items: center;
+    display: block;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+.navbar .navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav{
+    border-style: solid;
+    margin-top: 10px;
+}
+
+.collapse li{
+    text-align: center;
+    font-weight: bold;
+    border-style: solid;
+    border-bottom: solid;
+}
+
+.container {
+    justify-content: center;
+    display: block;
+}
+
+.container .introduce {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container .col {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-style: none;
+    background-color: grey;
+}
+
+.container .col .food{
+    text-align: center;
+    font-weight: bold;
+    font-weight: 20px;
+}
+
+.container .col p{
+    text-align: center;
+    text-align: left;
+}
